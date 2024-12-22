@@ -1,11 +1,9 @@
-// src/App.js
-import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import ClassesPage from "./components/ClassesPage";
+import ContactPage from "./components/ContactPage";
 import Header from "./components/Header";
 import HomePage from "./components/HomePage";
-import ClassesPage from "./components/ClassesPage";
 import MembershipPage from "./components/MembershipPage";
-import ContactPage from "./components/ContactPage";
 
 function App() {
   return (
